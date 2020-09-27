@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+BODY{
+	position:relative;
+	margin: 0px;
+	padding: 0px;
+	min-width: 720px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+SECTION {height:calc(100% - 130px);}
+
+BODY > #header {
+	height: 100px;
+    width: 100%;
+    border-bottom: 1.5px ridge lightgray;
+}
+
+BODY > #header > HEADER{
+	width: 100%;
+    height: 100%;
+    display: block;
+}
+
+BODY > #header > HEADER > #title{
+    float: left;
+    display: inline;
+    margin-left: 11px;
+    line-height: 4.7;
+}
+
+BODY > #header > HEADER > #title > a > h1{
+    display: inline;
+   	font-size: 21.9px;
+    font-family: MV Boli;
+    font-weight: bold;
+}
+
+BODY > #header > HEADER > #rightMenu{
+	float: right;
+    line-height: 10;
+    height: 100px;
+}
+
+BODY > #header > HEADER > #rightMenu > ul{
+	list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+BODY > #header > HEADER > #rightMenu > ul > li{
+    margin: 0px;
+    margin-right: 15px;
+    padding: 0px;
+    float: left;
+}
+
+BODY > #header > HEADER > #rightMenu > ul > li > #search{width: 15px;}
+
+#leftMenuBar{
+	float: left;
+    display: inline;
+    cursor: pointer;
+}
+
+#leftMenuBar #menuBar{
+    width: 50px;
+    height: 50px;
+    margin: 25px 0px 0px 30px;
+}
+
+.menuBarCotainer{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 284px;
+    height: 100%;
+    border-right: 1px ridge lightgrey;
+    background-color: white;
+}
+
+.menuBarCotainer.noDisPlay{
+	display: none;
+}
+
+#mainContainer {
+	margin-left: 285px;
+    margin-right: 285px;
+    background-color: black;
+}
+
+#mainContainer #subContainer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}    
+
+
