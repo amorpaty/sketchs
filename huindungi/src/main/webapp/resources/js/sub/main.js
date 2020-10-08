@@ -76,12 +76,4 @@ jQuery(window).on("load", function() {
 	jQuery('#menuBar').click(function(){
 		jQuery(".menuBarCotainer").removeClass('noDisPlay');
 	});
-	
-//	jQuery('BODY').click(function(){
-//		var flag = jQuery(".menuBarCotainer").hasClass('noDisPlay');
-//		
-//		if(!flag){
-//			jQuery(".menuBarCotainer").addClass('noDisPlay');
-//		}
-//	});
 });

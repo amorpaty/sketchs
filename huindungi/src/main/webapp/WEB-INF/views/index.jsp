@@ -23,9 +23,10 @@
 	</script>
 	<script type="text/javascript" src="/resources/js/sub/main.js"></script>
 </head>
-<body> 
-<div class="menuBarCotainer noDisPlay">
-</div>	
+<body>
+	<div class="menuBarCotainer noDisPlay">
+	</div>
+	
 	<div id="header">
 	 	<header>
 	 		<div id="rightMenu">

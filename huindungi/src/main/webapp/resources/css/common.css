@@ -92,22 +92,21 @@ BODY > #header > HEADER > #rightMenu > ul > li > #search{width: 15px;}
     margin-right: 19%;
 }
 
-#mainContainer #subContainer{
+/* #mainContainer #subContainer{
 	position: relative;
-/*     width: 100%;
-    height: 100%; */
-}    
+    width: 100%;
+    height: 100%;
+}     */
 
 #subContainer > #container {
-	position: absolute;
-    margin-top: 30px;
+	/* position: absolute; */
+    padding-top: 30px;
     background-color: white;
     min-width: 760px;
 }
 
 #imageTableList {
 	width: 100%; 
-	height: 100%;
 	border: 0px;
 }
 
@@ -134,7 +133,7 @@ BODY > #header > HEADER > #rightMenu > ul > li > #search{width: 15px;}
 	}
 	
 	#subContainer > #container {
-		position: absolute;
+/* 		position: absolute; */
 	    margin-top: 30px;
 	    background-color: white;
 	}
@@ -146,12 +145,6 @@ BODY > #header > HEADER > #rightMenu > ul > li > #search{width: 15px;}
 	
 	#imageTableList TBODY TD{
 		padding: 1px;	
-	}
-	
-	#mainContainer #subContainer {
-	    position: relative;
-/* 	    width: 69.5%; */
-/* 	    height: 100%; */
 	}
 	
 	BODY > #header > HEADER > #rightMenu > ul > li:last-child {
